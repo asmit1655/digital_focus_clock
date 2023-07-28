@@ -28,7 +28,7 @@ function showTime(){
     document.getElementById("DisplayClock").innerHTML=time;
     setTimeout(showTime,1000);
     let bg;
-    const UserName="Ankita";
+    const UserName="Chinmay";
     const user=document.getElementById("User");
     if (h<8 && session==="AM"){
         bg=`url(https://source.unsplash.com/G_a9JhmiZFk)`;
